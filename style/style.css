@@ -1,3 +1,38 @@
 *{
     font-family: "Work Sans";
 }
+.btn-primary{
+    text-align: center;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: lightblue; */
+}
+nav>ul{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+}
+.navtitle{
+    font: size 2.8rem;
+    
+}
+.bannerTitle{
+    text-align: center;
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin:0 auto;
+
+}
