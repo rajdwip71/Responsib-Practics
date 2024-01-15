@@ -36,3 +36,51 @@ li{
     margin:0 auto;
 
 }
+/* main style start  */
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.team{
+    display: flex;
+    align-items: center;
+}
+.team>div{
+    width: 50%;
+    height: 50%;
+    
+
+}
+img{
+    width: 100%;
+}
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.content-title{
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+.Quick-list{
+    color: #727272;
+}
+.Features{
+    color: #FF900E;
+    font-weight: 700;
+}
+.content-right-side{
+    padding-left: 20px;
+    justify-content: center;
+    
+}
+.content-info{
+    font-size: 1.2rem;
+    text-align: justify;
+    
+    
+
+}
+/* main section style end  */
